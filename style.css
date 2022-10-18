@@ -1,0 +1,196 @@
+body{
+    background-image: linear-gradient(to right, #edede9, #f5ebe0);
+}
+/*First page*/
+#first{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    background-color: lightblue ;
+    border: 3px grey solid;
+    border-radius: 10px;
+}
+#btnWelcome{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 30%;
+    border: 3px black solid;
+    border-radius: 10px;
+    background-color:  darkgrey;
+    font-size: x-large
+}
+#btnWelcome:hover{
+    background-color: grey;
+}
+/*Second page*/
+#main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    background-color: lightblue ;
+    visibility: hidden;
+    border: 3px grey solid;
+    border-radius: 10px;
+}
+#question{
+    position: absolute;
+    left:50%;
+    top: 15%;
+    transform:translate(-50%);
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    width: 80%;
+    font-size: x-large;
+}
+#answer{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 15%;
+    font-size: x-large;
+    text-align: center;
+}
+#next{
+    position:absolute;
+    width: 20%;
+    height: 10%;
+    background-color: red;
+    right: 5%;
+    bottom: 2%;
+    visibility: hidden;
+}
+#time{
+    position:absolute;
+    right: 5%;
+    top: 2%;
+    width: 30%;
+    height: 15%;
+    text-align: right;
+    font-size: xx-large;
+}
+#current{
+    position: absolute;
+    width: 30%;
+    height: 15%;
+    left: 5%;
+    top: 2%;
+    font-size: x-large;
+}
+#respond{
+    position:absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 15%;
+    font-size: x-large;
+    background-color:lightgreen;
+}
+
+/*Third page*/
+#final{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    background-color: lightblue ;
+    visibility: hidden;
+    border: 3px grey solid;
+    border-radius: 10px;
+}
+#yourScore{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
+}
+#yourTime{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
+}
+#yourOldScore{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
+}
+#yourOldTime{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
+}
+#answerSheet{
+    position:absolute;
+    width: 20%;
+    height: 10%;
+    left: 5%;
+    bottom: 2%;
+    background-color: turquoise;
+}
+#restart{
+    position:absolute;
+    width: 20%;
+    height: 10%;
+    right: 5%;
+    bottom: 2%;
+    background-color: red;
+}
+/* answer sheet page*/
+#table{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    background-color: lightblue ;
+    border: 3px grey solid;
+    border-radius: 10px;
+    visibility: hidden;
+}
+#table-content{
+    position: absolute;
+    display: grid;
+    top:0;
+    left: 0;
+    margin: 0;
+    border: 3px grey solid;
+    border-radius: 10px;
+    height: 80%;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7,1fr);
+}
+#back{
+    position:absolute;
+    width: 20%;
+    height: 10%;
+    left: 5%;
+    bottom: 2%;
+    background-color: turquoise;
+}
